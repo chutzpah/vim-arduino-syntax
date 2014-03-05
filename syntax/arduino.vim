@@ -52,6 +52,8 @@ syn keyword arduinoStdFunc   round sin sq sqrt tan
 
 syn keyword arduinoType      boolean byte null String word
 
+syn match Number 'B[01]\{8\}'
+
 hi def link arduinoType Type
 hi def link arduinoConstant Constant
 hi def link arduinoStdFunc Function
